@@ -1,5 +1,13 @@
-# This file is used by Rack-based servers to start the application.
-
 require_relative 'config/environment'
-
 run Rails.application
+
+# require_relative 'config/boot'
+# require 'lamby'
+# require_relative 'config/application'
+# require_relative 'config/environment'
+
+# $app = Rack::Builder.new { run Rails.application }.to_app
+
+# def handler(event:, context:)
+#   Lamby.handler $app, event, context, rack: :alb
+# end
