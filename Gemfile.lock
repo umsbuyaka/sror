@@ -974,7 +974,7 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     lamby (2.0.1)
       rack
     listen (3.2.1)
